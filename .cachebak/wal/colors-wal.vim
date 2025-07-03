@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/bob/bob/wallpapers/45.jpg"
+let background = "#050611"
+let foreground = "#cadce5"
+let cursor     = "#cadce5"
+
+" Colors
+let color0  = "#050611"
+let color1  = "#1766AC"
+let color2  = "#358CBA"
+let color3  = "#07B7DB"
+let color4  = "#23A0D4"
+let color5  = "#56AED8"
+let color6  = "#5DC3DC"
+let color7  = "#cadce5"
+let color8  = "#8d9aa0"
+let color9  = "#1766AC"
+let color10 = "#358CBA"
+let color11 = "#07B7DB"
+let color12 = "#23A0D4"
+let color13 = "#56AED8"
+let color14 = "#5DC3DC"
+let color15 = "#cadce5"

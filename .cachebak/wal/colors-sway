@@ -1,0 +1,21 @@
+set $wallpaper /home/bob/bob/wallpapers/45.jpg
+
+set $background #050611
+set $foreground #cadce5
+
+set $color0 #050611
+set $color1 #1766AC
+set $color2 #358CBA
+set $color3 #07B7DB
+set $color4 #23A0D4
+set $color5 #56AED8
+set $color6 #5DC3DC
+set $color7 #cadce5
+set $color8 #8d9aa0
+set $color9 #1766AC
+set $color10 #358CBA
+set $color11 #07B7DB
+set $color12 #23A0D4
+set $color13 #56AED8
+set $color14 #5DC3DC
+set $color15 #cadce5
