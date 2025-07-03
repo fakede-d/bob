@@ -108,7 +108,7 @@
           8 "八"
           9 "九"
           0 "〇"
-          (str workspace.id)))))
+          (str workspace.id))))))
 
 ;; Wifi ;;
 (defwidget wifi []
