@@ -94,20 +94,21 @@
        :space-evenly false
        :class "workspaces"
     (for workspace in workspaces
-      (label :class (str "workspace" (if (= current_workspace workspace.id) " active" ""))
-             :onclick (str "hyprctl dispatch workspace " workspace.id)
-             :text (match workspace.id
-               1 "一"
-               2 "二"
-               3 "三"
-               4 "四"
-               5 "五"
-               6 "六"
-               7 "七"
-               8 "八"
-               9 "九"
-               0 "〇"
-               (str workspace.id)))))
+      (label
+        :class "workspace {current_workspace == workspace.id ? 'active' : ''}"
+        :onclick "hyprctl dispatch workspace {workspace.id}"
+        :text (match workspace.id
+          1 "一"
+          2 "二"
+          3 "三"
+          4 "四"
+          5 "五"
+          6 "六"
+          7 "七"
+          8 "八"
+          9 "九"
+          0 "〇"
+          (str workspace.id)))))
 
 ;; Wifi ;;
 (defwidget wifi []
