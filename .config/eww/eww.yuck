@@ -13,6 +13,7 @@
 (defvar eww "eww -c ~/.config/eww/")
 ;;;;;;;;;;;;;;;;;;;;;
 
+
 ;;;;; Deflistens ;;;;;
 (deflisten music :initial "" "playerctl --player=ncspot --follow metadata --format '{{ title }}' || true")
 (deflisten artist :initial "" "playerctl --player=ncspot --follow metadata --format '{{ artist }}' || true")

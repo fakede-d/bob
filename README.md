@@ -1,5 +1,5 @@
 
-# Zenities Hyprland 💧
+#  Hyprland 💧
 ![](screenshots/hero-new.png)
 ![](screenshots/tmux-ncspot-cava.png)
 

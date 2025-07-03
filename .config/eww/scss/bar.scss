@@ -1,5 +1,6 @@
 .main-bar {
-  background-color: mix($background, $foreground, 95%);
+  background-color: #191926; // dark, almost black with subtle blue/purple
+  // background-color: mix($background, $foreground, 95%);
   padding: 5px;
   border-radius: 12px;
 }
@@ -39,21 +40,48 @@
   padding: 0 4px;
 }
 
-.workspace {
-  color: $color3;
-  border-radius: 1rem;
-  margin: 0 0.25rem;
-  padding: 0 0.1rem;
-  transition: color 0.3s ease-in-out;
-}
-
 .workspace.current {
   color: $color2;
 }
 
+
+
+
+
+.workspace {
+  color: #a5adcb;   // faded color for inactive
+  opacity: 0.5;
+  font-size: 1.3em;
+  margin: 0 2px;
+  font-family: "Iosevka Nerd Font";
+  transition: color 0.2s, opacity 0.2s;
+}
+.workspace.active {
+  color: #cba6f7;   // highlight for active (e.g. 四 in your screenshot)
+  opacity: 1;
+  font-weight: bold;
+}
 .workspace:hover {
   color: mix($foreground, $color2, 70%);
 }
+
+.bar-icon {
+  color: #cba6f7;   // pastel magenta/purple
+  font-size: 1.2em;
+  margin: 0 6px;
+}
+.clock-icon {
+  color: #b4befe;   // lilac
+}
+.inactive-icon {
+  color: #a5adcb;   // faded
+  opacity: 0.5;
+}
+
+
+
+
+
 
 .volbar trough {
   all: unset;
